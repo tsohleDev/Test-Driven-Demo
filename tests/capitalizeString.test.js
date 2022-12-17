@@ -1,5 +1,5 @@
-import { capitalizeString } from "../modules/funtions.js";
+import { capitalizeString } from '../modules/funtions';
 
 test('upper case', () => {
-    expect(capitalizeString('yes')).toBe('YES')
-})
+  expect(capitalizeString('yes')).toBe('YES');
+});
