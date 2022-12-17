@@ -17,4 +17,8 @@ const reverseString = (string) => {
         .join('')
 }
 
-export  {stringLength, reverseString}
+const capitalizeString = string => {
+  return string.toUpperCase()
+}
+
+export  {stringLength, reverseString, capitalizeString}
