@@ -4,7 +4,8 @@
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "clear && jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/tsohleDev/Test-Driven-Demo#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
